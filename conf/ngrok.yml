@@ -1,0 +1,7 @@
+server_addr: "ngrok.qiniuts.com:6062"
+trust_host_root_certs: false
+tunnels:
+  ssh:
+     remote_port: 38382
+     proto:
+       tcp: "127.0.0.1:22"
